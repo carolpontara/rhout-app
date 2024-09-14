@@ -5,10 +5,12 @@ function App() {
     return (
         <div className="app">
             <header className="app-header">
-                <img style={{ width: 246, height: 35 }} src="https://via.placeholder.com/246x35" />
+                <img className="header-logo" src="images/rhout-logo-mini.png" alt="Logo" />
             </header>
-            <h1>Hello World</h1>
-            <p>This is a React app with a black background and white Poppins font.</p>
+            <div className="content">
+                <div className="header-text">A melhor Loja de</div>
+                <div className="sub-header-text">iPhones Do Brasil</div>
+            </div>
         </div>
     );
 }
