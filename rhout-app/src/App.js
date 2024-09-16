@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import IphoneCarousel from './carousel';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
                 <div className="header-text">A melhor Loja de</div>
                 <div className="sub-header-text">iPhones Do Brasil</div>
             </div>
+            <IphoneCarousel />
         </div>
     );
 }
