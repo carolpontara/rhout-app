@@ -7,14 +7,16 @@ body {
   color: white;
   font-family: 'Poppins', sans-serif;
   height: 100vh;
-  overflow-y: auto; /* Permite scroll vertical */
+  overflow-y: auto;
+  /* Permite scroll vertical */
 }
 
 .app {
   background-color: black;
   color: white;
   font-family: 'Poppins', sans-serif;
-  min-height: 100vh; /* Remove a altura fixa para permitir o scroll */
+  min-height: 100vh;
+  /* Remove a altura fixa para permitir o scroll */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,12 +27,15 @@ body {
 
 .app-header {
   width: 100%;
-  position: fixed; /* Mantém o logo fixo no topo */
+  position: fixed;
+  /* Mantém o logo fixo no topo */
   top: 0;
   text-align: center;
   padding: 10px;
-  background-color: black; /* Fundo preto no header */
-  z-index: 100; /* Certifica que o header está acima de outros elementos */
+  background-color: black;
+  /* Fundo preto no header */
+  z-index: 100;
+  /* Certifica que o header está acima de outros elementos */
 }
 
 .header-logo {
@@ -40,7 +45,8 @@ body {
 }
 
 .content {
-  margin-top: 100px; /* Espaçamento para que o conteúdo não sobreponha o header */
+  margin-top: 100px;
+  /* Espaçamento para que o conteúdo não sobreponha o header */
   text-align: center;
 }
 

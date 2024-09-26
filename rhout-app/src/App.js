@@ -14,7 +14,7 @@ function App() {
                 <div className="sub-header-text">iPhones Do Brasil</div>
             </div>
             <IphoneCarousel />
-            <Items/>
+            <Items />
         </div>
     );
 }

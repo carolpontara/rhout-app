@@ -10,7 +10,7 @@ const Items = () => {
             <div className="sub-header-text">Condições para você!</div>
             <br />
             <div className="icon-group">
-            <img src="images/icons/icon-cartao.png" alt="Logo" width="110" height="90" />
+                <img src="images/icons/icon-cartao.png" alt="Logo" width="110" height="90" />
             </div>
             <div className="text-container">
                 <p className="large-text">PARCELAMENTO</p>
@@ -18,7 +18,7 @@ const Items = () => {
             </div>
             <br />
             <div className="icon-group">
-            <img src="images/icons/icon-selo.png" alt="Logo" width="110" height="100" />
+                <img src="images/icons/icon-selo.png" alt="Logo" width="110" height="100" />
             </div>
             <div className="text-container">
                 <p className="large-text">GARANTIA</p>
@@ -26,7 +26,7 @@ const Items = () => {
             </div>
             <br />
             <div className="icon-group">
-            <img src="images/icons/icon-cliente.png" alt="Logo" width="110" height="100" />
+                <img src="images/icons/icon-cliente.png" alt="Logo" width="110" height="100" />
             </div>
             <div className="text-container">
                 <p className="large-text">+8000</p>
@@ -34,7 +34,7 @@ const Items = () => {
             </div>
             <br />
             <div className="icon-group">
-            <img src="images/icons/icon-assistencia.png" alt="Logo" width="110" height="90" />
+                <img src="images/icons/icon-assistencia.png" alt="Logo" width="110" height="90" />
             </div>
             <div className="text-container">
                 <p className="large-text">ASSISTÊNCIA</p>
@@ -42,7 +42,7 @@ const Items = () => {
             </div>
             <br />
             <div className="icon-group">
-            <img src="images/icons/icon-calendario.png" alt="Logo" width="110" height="90" />
+                <img src="images/icons/icon-calendario.png" alt="Logo" width="110" height="90" />
             </div>
             <div className="text-container">
                 <p className="large-text">+5 ANOS</p>
@@ -50,7 +50,7 @@ const Items = () => {
             </div>
             <br />
             <div className="icon-group">
-            <img src="images/icons/icon-calendario.png" alt="Logo" width="110" height="90" />
+                <img src="images/icons/icon-calendario.png" alt="Logo" width="110" height="90" />
             </div>
             <div className="text-container">
                 <p className="large-text">4 LOJAS</p>

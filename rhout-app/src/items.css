@@ -7,14 +7,16 @@ body {
     color: white;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
-    overflow-y: auto; /* Permite scroll vertical */
+    overflow-y: auto;
+    /* Permite scroll vertical */
 }
 
 .app {
     background-color: black;
     color: white;
     font-family: 'Poppins', sans-serif;
-    min-height: 100vh; /* Remove a altura fixa para permitir o scroll */
+    min-height: 100vh;
+    /* Remove a altura fixa para permitir o scroll */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +35,7 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-  
+
 }
 
 .sub-header-text {
@@ -41,10 +43,10 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     margin: 6px 0;
-  
+
     /* Degradê prateado */
 }
-  
+
 
 .icon-group {
     display: flex;
@@ -52,10 +54,11 @@ body {
     gap: 10px;
     margin-bottom: 20px;
 }
+
 .text-container {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     margin: 0;
 }
 
@@ -84,7 +87,8 @@ body {
 /* Adicionando um estilo específico para aumentar a proximidade */
 .large-text,
 .large-description {
-    margin-bottom: -5px; /* Usando margens negativas para aproximar os textos */
+    margin-bottom: -5px;
+    /* Usando margens negativas para aproximar os textos */
 }
 
 /* Media queries para responsividade */
@@ -95,7 +99,8 @@ body {
 
     .large-text,
     .large-description {
-        font-size: 1.2rem; /* Ajuste de tamanho em telas menores */
+        font-size: 1.2rem;
+        /* Ajuste de tamanho em telas menores */
     }
 
     .small-icon {
