@@ -1,7 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
-
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import './carousel.css';
@@ -9,6 +8,9 @@ import './carousel.css';
 import { Navigation, Autoplay } from 'swiper/modules';
 
 const IphoneCarousel = () => {
+  const navigateToAnotherScreen = () => {
+    window.open('/outra-tela', '_blank'); // Altere '/outra-tela' para a URL desejada
+  };
   return (
     <div className="carousel-container">
       <Swiper
@@ -21,7 +23,7 @@ const IphoneCarousel = () => {
         <SwiperSlide>
           <div className="slide-content">
             <img src="images/iphones/iphone8plus.png" alt="Iphone 8 plus" className="carousel-image" />
-            <div className="slide-text">Iphone 8 plus</div>
+            <div className="slide-text">Iphone 8 Plus</div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -187,7 +189,22 @@ const IphoneCarousel = () => {
           </div>
         </SwiperSlide>
       </Swiper>
+      <div className="button-container">
+        <button
+          className="rounded-button"
+          onClick={navigateToAnotherScreen}
+        >
+          FAÇA SEU PEDIDO
+        </button>
+      </div>
+      <br></br>
+      <div className="text-container">
+        <p className="large-description">Solicite atendimento com  um de nossos consultores</p>
+      </div>
+      <br></br>
+
     </div>
+
   );
 };
 
