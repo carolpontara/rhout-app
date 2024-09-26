@@ -1,49 +1,191 @@
-import React from 'react'; 
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.css'; 
+import 'swiper/swiper-bundle.css';
 
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/autoplay'; 
-import './carousel.css'; 
+import 'swiper/css/autoplay';
+import './carousel.css';
 
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 
 const IphoneCarousel = () => {
   return (
     <div className="carousel-container">
       <Swiper
         spaceBetween={30}
-        slidesPerView={1}
+        slidesperView={1}
         navigation
-        autoplay={{ delay: 3000 }} 
-        modules={[Navigation, Pagination, Autoplay]}
+        autoplay={{ delay: 2000 }}
+        modules={[Navigation, Autoplay]}
       >
         <SwiperSlide>
           <div className="slide-content">
-            <img src="images/iphones/iphone16-pro-max.png" alt="iPhone 1" className="carousel-image" />
-            <div className="slide-text">iPhone 16 Pro Max</div>
+            <img src="images/iphones/iphone8plus.png" alt="Iphone 8 plus" className="carousel-image" />
+            <div className="slide-text">Iphone 8 plus</div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="slide-content">
-            <img src="images/iphone2.jpg" alt="iPhone 2" className="carousel-image" />
-            <div className="slide-text">iPhone 13 Pro</div>
+            <img src="images/iphones/iphonex.png" alt="Iphone X" className="carousel-image" />
+            <div className="slide-text">Iphone X</div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="slide-content">
-            <img src="images/iphone3.jpg" alt="iPhone 3" className="carousel-image" />
-            <div className="slide-text">iPhone 12 Pro</div>
+            <img src="images/iphones/iphonexr.png" alt="Iphone XR" className="carousel-image" />
+            <div className="slide-text">Iphone XR</div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="slide-content">
-            <img src="images/iphone4.jpg" alt="iPhone 4" className="carousel-image" />
-            <div className="slide-text">iPhone 11 Pro</div>
+            <img src="images/iphones/iphonexs.png" alt="Iphone XS" className="carousel-image" />
+            <div className="slide-text">Iphone XS</div>
           </div>
         </SwiperSlide>
-        {/* Adicione mais slides conforme necessário */}
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphonexsmax.png" alt="Iphone XS Max" className="carousel-image" />
+            <div className="slide-text">Iphone XS Max</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone11.png" alt="Iphone 11" className="carousel-image" />
+            <div className="slide-text">Iphone 11</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone11pro.png" alt="Iphone 11 Pro" className="carousel-image" />
+            <div className="slide-text">Iphone 11 Pro</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone11promax.png" alt="Iphone 11 Pro Max" className="carousel-image" />
+            <div className="slide-text">Iphone 11 Pro Max</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone12.png" alt="Iphone 12" className="carousel-image" />
+            <div className="slide-text">Iphone 12</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone12pro.png" alt="Iphone 12 Pro" className="carousel-image" />
+            <div className="slide-text">Iphone 12 Pro</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone12promax.png" alt="Iphone 12 Pro Max" className="carousel-image" />
+            <div className="slide-text">Iphone 12 Pro Max</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone13.png" alt="Iphone 13" className="carousel-image" />
+            <div className="slide-text">Iphone 13</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone13pro.png" alt="Iphone 13 Pro" className="carousel-image" />
+            <div className="slide-text">Iphone 13 Pro</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone13promax.png" alt="Iphone 13 Pro Max" className="carousel-image" />
+            <div className="slide-text">Iphone 13 Pro Max</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone14.png" alt="Iphone 14" className="carousel-image" />
+            <div className="slide-text">Iphone 14</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone14plus.png" alt="Iphone 14 Plus" className="carousel-image" />
+            <div className="slide-text">Iphone 14 Plus</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone14pro.png" alt="Iphone 14 Pro" className="carousel-image" />
+            <div className="slide-text">Iphone 14 Pro</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone14promax.png" alt="Iphone 14 Pro Max" className="carousel-image" />
+            <div className="slide-text">Iphone 14 Pro Max</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone15.png" alt="Iphone 15" className="carousel-image" />
+            <div className="slide-text">Iphone 15</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone15plus.png" alt="Iphone 15 Plus" className="carousel-image" />
+            <div className="slide-text">Iphone 15 Plus</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone15pro.png" alt="Iphone 15 Pro" className="carousel-image" />
+            <div className="slide-text">Iphone 15 Pro</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone15promax.png" alt="Iphone 15 Pro Max" className="carousel-image" />
+            <div className="slide-text">Iphone 15 Pro Max</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone16.png" alt="Iphone 16" className="carousel-image" />
+            <div className="slide-text">Iphone 16</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone16plus.png" alt="Iphone 16 Plus" className="carousel-image" />
+            <div className="slide-text">Iphone 16 Plus</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone16pro.png" alt="Iphone 16 Pro" className="carousel-image" />
+            <div className="slide-text">Iphone 16 Pro</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/iphone16promax.png" alt="Iphone 16 Pro Max" className="carousel-image" />
+            <div className="slide-text">Iphone 16 Pro Max</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/jbl.png" alt="Linha JBL" className="carousel-image" />
+            <div className="slide-text">JBL's</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/acessorios.png" alt="Acessorios" className="carousel-image" />
+            <div className="slide-text">Acessórios</div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </div>
   );
