@@ -9,7 +9,7 @@ import { Navigation, Autoplay } from 'swiper/modules';
 
 const IphoneCarousel = () => {
   const navigateToAnotherScreen = () => {
-    window.open('/outra-tela', '_blank'); // Altere '/outra-tela' para a URL desejada
+    window.open('/outra-tela', '_blank');
   };
   return (
     <div className="carousel-container">

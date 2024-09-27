@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 import IphoneCarousel from './carousel';
 import Items from './items';
+import Clientes from './clientes'
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             </div>
             <IphoneCarousel />
             <Items />
+            <Clientes/>
         </div>
     );
 }

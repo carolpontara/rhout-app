@@ -50,7 +50,7 @@ const Items = () => {
             </div>
             <br />
             <div className="icon-group">
-                <img src="images/icons/icon-calendario.png" alt="Logo" width="110" height="90" />
+                <img src="images/icons/icon-loja.png" alt="Logo" width="110" height="90" />
             </div>
             <div className="text-container">
                 <p className="large-text">4 LOJAS</p>
