@@ -7,16 +7,12 @@ body {
     color: white;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
-    overflow-y: auto;
-    /* Permite scroll vertical */
+    overflow-y: auto; /* Permite scroll vertical */
 }
 
 .app {
     background-color: black;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
-    /* Remove a altura fixa para permitir o scroll */
+    min-height: 100vh; /* Remove a altura fixa para permitir o scroll */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,31 +21,29 @@ body {
     box-sizing: border-box;
 }
 
-.title {
-    color: white;
-    font-size: 5vw;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    margin: 10px 0;
+.title,
+.sub-header-text,
+.large-text,
+.large-description {
+    text-align: center;
     background: linear-gradient(90deg, #d1d1d1, #f5f5f5, #a49c9c);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    text-align: center;
+}
+
+.title {
+    font-size: 5vw;
+    font-weight: 700;
+    margin: 10px 0;
     opacity: 0;
     animation: fadeIn 1s ease-in forwards;
 }
 
 .sub-header-text {
     font-size: 22px;
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     margin: 6px 0;
-    text-align: center;
-    background: linear-gradient(90deg, #d1d1d1, #f5f5f5, #b3b3b3);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
     opacity: 0;
     animation: fadeIn 1.5s ease-in forwards;
 }
@@ -81,12 +75,7 @@ body {
     font-size: 2rem;
     font-weight: 600;
     color: #EAEAEA;
-    text-align: center;
     margin: 0;
-    background: linear-gradient(90deg, #d1d1d1, #f5f5f5, #998e8e);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
     opacity: 0;
     animation: fadeIn 3s ease-in forwards;
 }
@@ -95,16 +84,14 @@ body {
     font-size: 1.5rem;
     color: #ffffff;
     margin: 0;
-    text-align: center;
     opacity: 0;
     animation: fadeIn 3.5s ease-in forwards;
 }
 
-/* Adicionando um estilo específico para aumentar a proximidade */
+/* Ajuste de margem para aproximar textos */
 .large-text,
 .large-description {
-    margin-bottom: -5px;
-    /* Usando margens negativas para aproximar os textos */
+    margin-bottom: -5px; /* Usando margens negativas para aproximar os textos */
 }
 
 /* Animação de fade-in */
@@ -127,8 +114,7 @@ body {
 
     .large-text,
     .large-description {
-        font-size: 1.2rem;
-        /* Ajuste de tamanho em telas menores */
+        font-size: 1.2rem; /* Ajuste de tamanho em telas menores */
     }
 
     .small-icon {

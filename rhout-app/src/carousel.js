@@ -16,7 +16,6 @@ const IphoneCarousel = () => {
       <Swiper
         spaceBetween={30}
         slidesperView={1}
-        navigation
         autoplay={{ delay: 2000 }}
         modules={[Navigation, Autoplay]}
       >

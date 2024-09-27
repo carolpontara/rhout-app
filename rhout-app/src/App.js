@@ -3,7 +3,7 @@ import './index.css';
 import IphoneCarousel from './carousel';
 import Items from './items';
 import Clientes from './clientes';
-import Avaliacoes from './avaliacoes'
+import Avaliacoes from './avaliacoes';
 
 function App() {
     return (
@@ -17,8 +17,8 @@ function App() {
             </div>
             <IphoneCarousel />
             <Items />
-            <Clientes/>
-            <Avaliacoes/>
+            <Clientes />
+            <Avaliacoes />
         </div>
     );
 }
