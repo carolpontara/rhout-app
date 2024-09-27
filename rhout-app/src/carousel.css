@@ -7,6 +7,12 @@
   padding: 20px 0;
   /* Espaçamento vertical */
 }
+.carousel-image-avalia{
+  width: 39%;
+  height: 825px;
+  object-fit: contain;
+  /* Bordas arredondadas nas imagens */
+}
 
 .carousel-image {
   width: 100%;
@@ -74,36 +80,31 @@
 }
 
 .rounded-button {
-  background-color: white;
-  /* Cor de fundo do botão */
-  color: black;
-  /* Cor do texto do botão */
-  border: none;
-  /* Sem borda */
-  border-radius: 25px;
-  /* Bordas arredondadas */
-  padding: 12px 25px;
-  /* Espaçamento interno */
-  font-size: 18px;
-  /* Tamanho da fonte maior */
-  cursor: pointer;
-  /* Muda o cursor ao passar o mouse */
+  background: radial-gradient(50% 50% at 50% 50%, #E7E1E1 22.5%, #B4B1B1 73%, #929292 100%);
+  backdrop-filter: blur(2px);
+  border-radius: 100px;
+  
+  /* Ajustes para aumentar o botão */
+  padding: 20px 40px; /* Aumenta o espaçamento interno para mais altura e largura */
+  font-size: 20px; /* Aumenta o tamanho da fonte */
+  color: white; /* Deixa o texto branco */
+  font-weight: bold; /* Deixa o texto em negrito */
+  
+  border: none; /* Remove bordas */
+  cursor: pointer; /* Muda o cursor ao passar o mouse */
+  
+  /* Sombra e transições */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Sombra para destacar o botão */
   transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
-  /* Transições suaves */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-  /* Sombra mais suave e extensa */
 }
 
 .rounded-button:hover {
-  background-color: #d1d1d1;
-  /* Cor mais escura ao passar o mouse */
-  transform: translateY(-2px);
-  /* Leve elevação ao passar o mouse */
+  background-color: #d1d1d1; /* Cor mais escura ao passar o mouse */
+  transform: translateY(-4px); /* Leve elevação ao passar o mouse */
 }
 
 .rounded-button:active {
-  transform: translateY(0);
-  /* Retorna à posição original ao clicar */
+  transform: translateY(0); /* Volta à posição original ao clicar */
 }
 
 .text-container {
