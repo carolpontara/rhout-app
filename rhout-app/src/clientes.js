@@ -121,6 +121,26 @@ function Clientes() {
                                 <img src="images/clientes/cliente20.png" alt="Cliente 20" className="carousel-image" />
                             </div>
                         </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="slide-content">
+                                <img src="images/clientes/cliente21.png" alt="Cliente 21" className="carousel-image" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="slide-content">
+                                <img src="images/clientes/cliente22.png" alt="Cliente 22" className="carousel-image" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="slide-content">
+                                <img src="images/clientes/cliente23.png" alt="Cliente 23" className="carousel-image" />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="slide-content">
+                                <img src="images/clientes/cliente24.png" alt="Cliente 24" className="carousel-image" />
+                            </div>
+                        </SwiperSlide>
                     </Swiper>
                     <div className="button-container">
                         <button
@@ -130,7 +150,7 @@ function Clientes() {
                             ADQUIRA SEU IPHONE
                         </button>
                     </div>
-                    
+
                     <br></br>
                 </div>
             </div>
