@@ -9,13 +9,14 @@ import { Navigation, Autoplay } from 'swiper/modules';
 
 const IphoneCarousel = () => {
   const navigateToAnotherScreen = () => {
-    window.open('/outra-tela', '_blank');
+    window.location.href = '/consultores';  // Redireciona para a URL desejada na mesma janela
   };
+
   return (
     <div className="carousel-container">
       <Swiper
         spaceBetween={30}
-        slidesperView={1}
+        slidesPerView={1}  // Corrigido aqui também
         autoplay={{ delay: 2000 }}
         modules={[Navigation, Autoplay]}
       >
@@ -178,16 +179,11 @@ const IphoneCarousel = () => {
         <SwiperSlide>
           <div className="slide-content">
             <img src="images/iphones/jbl.png" alt="Linha JBL" className="carousel-image" />
-            <div className="slide-text">JBL's</div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slide-content">
-            <img src="images/iphones/acessorios.png" alt="Acessorios" className="carousel-image" />
-            <div className="slide-text">Acessórios</div>
+            <div className="slide-text">Linha JBL</div>
           </div>
         </SwiperSlide>
       </Swiper>
+
       <div className="button-container">
         <button
           className="rounded-button"
@@ -196,14 +192,7 @@ const IphoneCarousel = () => {
           FAÇA SEU PEDIDO
         </button>
       </div>
-      <br></br>
-      <div className="text-container">
-        <p className="large-description">Solicite atendimento com  um de nossos consultores</p>
-      </div>
-      <br></br>
-
     </div>
-
   );
 };
 

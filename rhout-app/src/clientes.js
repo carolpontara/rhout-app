@@ -8,7 +8,7 @@ import { Navigation, Autoplay } from 'swiper/modules';
 
 function Clientes() {
     const navigateToAnotherScreen = () => {
-        window.open('/outra-tela', '_blank');
+        window.location.href = '/consultores';  // Redireciona para a URL desejada na mesma janela
     };
     return (
         <div className="app">
