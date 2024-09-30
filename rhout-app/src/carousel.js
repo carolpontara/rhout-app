@@ -186,6 +186,24 @@ const IphoneCarousel = () => {
             <div className="slide-text">Linha JBL</div>
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/ipad.png" alt="Ipad" className="carousel-image" />
+            <div className="slide-text">Ipad's</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/smart.png" alt="SmartWatch" className="carousel-image" />
+            <div className="slide-text">Apple Watch</div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide-content">
+            <img src="images/iphones/macbook.png" alt="MacBook" className="carousel-image" />
+            <div className="slide-text">MacBook</div>
+          </div>
+        </SwiperSlide>
       </Swiper>
 
       <div className="button-container">
