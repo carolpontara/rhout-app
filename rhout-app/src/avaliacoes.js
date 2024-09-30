@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
@@ -8,8 +9,9 @@ import { Navigation, Autoplay } from 'swiper/modules';
 
 function Avaliacoes() {
     const navigateToAnotherScreen = () => {
-        window.open('/outra-tela', '_blank');
+        window.location.href = './consultores';  // Redireciona para a URL desejada na mesma janela
     };
+
     return (
         <div className="app">
             <div className="content">

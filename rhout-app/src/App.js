@@ -1,6 +1,6 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './index.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import './index.css'; // Certifique-se de que esse arquivo está correto e sendo importado.
 import IphoneCarousel from './carousel';
 import Items from './items';
 import Clientes from './clientes';
@@ -8,9 +8,14 @@ import Avaliacoes from './avaliacoes';
 import Consultores from './consultores';
 
 function App() {
-    // Função para redirecionar para a página inicial
-    const goToHomePage = () => {
-        window.location.href = 'http://localhost:3000';
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const openModal = () => {
+        setIsModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
     };
 
     return (
@@ -21,28 +26,44 @@ function App() {
                         className="header-logo" 
                         src="images/rhout-logo-mini.png" 
                         alt="Logo Rhout Store" 
-                        onClick={goToHomePage} // Adiciona o evento de clique
-                        style={{ cursor: 'pointer' }} // Estilo de cursor para indicar que é clicável
+                        onClick={() => window.location.href = '/'} 
+                        style={{ cursor: 'pointer' }}
                     />
                 </header>
                 <main>
                     <Routes>
-                        {/* Definindo a rota da página inicial */}
                         <Route path="/" element={
                             <>
                                 <section className="content">
                                     <div className="header-text">A melhor Loja de</div>
                                     <div className="sub-header-text">iPhones Do Brasil</div>
                                 </section>
+
+                                {/* Verifique se os componentes estão corretamente importados e não apresentam erros */}
                                 <IphoneCarousel />
                                 <Items />
                                 <Clientes />
                                 <Avaliacoes />
+                                
+                                {/* Botão para abrir o modal */}
+                                <button onClick={openModal}>Abrir Modal</button>
+
+                                {/* Exibição condicional do modal */}
+                                {isModalOpen && (
+                                    <div className="modal">
+                                        <div className="modal-content">
+                                            <h2>Modal Aberto</h2>
+                                            <button onClick={closeModal}>Fechar Modal</button>
+                                        </div>
+                                    </div>
+                                )}
                             </>
                         } />
 
-                        {/* Definindo a rota para a página de Consultores */}
+                        {/* Página de Consultores */}
                         <Route path="/consultores" element={<Consultores />} />
+
+                        <Route path="*" element={<Navigate to="/" />} />
                     </Routes>
                 </main>
             </div>
