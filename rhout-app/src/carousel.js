@@ -219,8 +219,8 @@ const IphoneCarousel = () => {
         </SwiperSlide>
       </Swiper>
 
-      <div className="consultores-button-container">
-        <button className="consultores-button" onClick={navigateToConsultores}>
+      <div className="button-container">
+        <button className="rounded-button" onClick={navigateToConsultores}>
           Falar com Consultor
         </button>
       </div>
