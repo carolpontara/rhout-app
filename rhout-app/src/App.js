@@ -10,10 +10,6 @@ import Consultores from './consultores';
 function App() {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
-    const openModal = () => {
-        setIsModalOpen(true);
-    };
-
     const closeModal = () => {
         setIsModalOpen(false);
     };
@@ -45,8 +41,6 @@ function App() {
                                 <Clientes />
                                 <Avaliacoes />
                                 
-                                {/* Botão para abrir o modal */}
-                                <button onClick={openModal}>Abrir Modal</button>
 
                                 {/* Exibição condicional do modal */}
                                 {isModalOpen && (

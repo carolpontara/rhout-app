@@ -29,7 +29,7 @@ function Avaliacoes() {
                         {[...Array(8).keys()].map((index) => (
                             <SwiperSlide key={index}>
                                 <div className="slide-content">
-                                    <img src={`images/Avaliacoes/avaliacao${index + 1}.png`} alt={`Avaliacao ${index + 1}`} className="carousel-image-avalia" />
+                                    <img src={`images/avaliacoes/avaliacao${index + 1}.png`} alt={`Avaliacao ${index + 1}`} className="carousel-image-avalia" />
                                 </div>
                             </SwiperSlide>
                         ))}
