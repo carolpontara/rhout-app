@@ -24,32 +24,32 @@ function Consultores() {
       
       <div className="consultant-list">
         <ConsultantCard
-          name="Consultora Ketlin Mendes"
+          name=" Ketlin"
           image="/images/vendedores/vendedoraket.png" // URL da imagem da Ketlin
           whatsappLink="https://api.whatsapp.com/send?phone=5514997678149" // Substitua pelo número do WhatsApp
         />
         <ConsultantCard
-          name="Consultor Andrew"
+          name="Andrew"
           image="/images/vendedores/vendedorandrew.png" // Outra imagem, pode ser alterada se necessário
           whatsappLink="https://api.whatsapp.com/send?phone=5514998018264" // Substitua pelo número do WhatsApp
         />
         <ConsultantCard
-          name="Consultora Isabela Gonçalves"
+          name=" Isabela"
           image="/images/vendedores/vendedoraisabela.png" // Outra imagem, pode ser alterada se necessário
           whatsappLink="https://api.whatsapp.com/send?phone=5514997242613" // Substitua pelo número do WhatsApp
         />
           <ConsultantCard
-          name="Consultor Filipe Melo"
+          name="Filipe -  Santa Cruz"
           image="/images/vendedores/vendedorfilipi.png" // Outra imagem, pode ser alterada se necessário
           whatsappLink="https://api.whatsapp.com/send?phone=5514998268128" // Substitua pelo número do WhatsApp
         />
            <ConsultantCard
-          name="Consultor Gabriel Maia"
+          name="Gabriel - Santa Cruz"
           image="/images/vendedores/vendedorgabriel.png" // Outra imagem, pode ser alterada se necessário
           whatsappLink="https://api.whatsapp.com/send?phone=5514996463319" // Substitua pelo número do WhatsApp
         />
         <ConsultantCard
-          name="Consultora Suellen"
+          name="Suellen"
           image="/images/vendedores/vendedorasuellen.png" // Outra imagem, pode ser alterada se necessário
           whatsappLink="https://api.whatsapp.com/send?phone=5514997093314" // Substitua pelo número do WhatsApp
         />

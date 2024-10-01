@@ -5,7 +5,7 @@ import './items.css';
 const Items = () => {
     return (
         <div className="app">
-            <img src="images/icons/logo-maca.png" alt="Logo" width="110" height="90" />
+            {/* <img src="images/icons/logo-maca.png" alt="Logo" width="110" height="90" /> */}
             <br></br>
             <h1 className="title">As Melhores</h1>
             <div className="sub-header-text">Condições para você!</div>
